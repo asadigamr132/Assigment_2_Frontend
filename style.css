@@ -249,3 +249,87 @@ main {
 .gallery-item:hover .gallery-caption {
     opacity: 1;
 }
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #222;
+    color: white;
+}
+
+.portfolio-layout {
+    display: grid;
+
+    grid-template-columns: 1fr 280px;
+
+    gap: 30px;
+
+    padding: 50px;
+}
+
+.projects h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px;
+
+    background-color: #f5f5f5;
+    border-radius: 10px;
+
+    min-height: 180px;
+}
+
+.project-card h2 {
+    margin-top: 0;
+}
+
+.project-card p {
+    line-height: 1.5;
+}
+
+.project-card .card-button {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.portfolio-sidebar {
+    padding: 25px;
+
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.portfolio-sidebar h2 {
+    margin-top: 0;
+}
+
+.portfolio-sidebar li {
+    margin-bottom: 10px;
+}
+
+.portfolio-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 60px;
+
+    background-color: #222;
+    color: white;
+}
